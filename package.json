@@ -7,7 +7,7 @@
   "main": "./lib/serious-calculations",
   "repository": {
     "type": "git",
-    "url": "git://github.com/travis-ci/travis-ci-node.js-example.git"
+    "url": "git://github.com/singhjeevan30/nodejs_travis.git"
   },
   "scripts": {
     "test": "vows test/*.js"
