@@ -4,4 +4,11 @@ node_js:
         - node
         - 'lts/*'
 
-cache: npm
+deploy:
+        provider: script
+        skip_cleanup: true
+        #script: rsync -r $TRAVIS_BUILD_DIR/* ec2-user@65.0.101.81:/home/ec2-user
+        script:
+                - npx semantic-release
+        on:
+                branch: master
