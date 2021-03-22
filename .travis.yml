@@ -4,6 +4,13 @@ node_js:
         - node
         - 'lts/*'
 
+notifications:
+  email:
+    recipients:
+    - jeevan.bhasin@bangmetric.com
+    onsuccess: always
+    onfailure: never
+
 deploy:
         provider: script
         skip_cleanup: true
