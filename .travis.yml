@@ -4,6 +4,7 @@ node_js:
         - node
         - 'lts/*'
 
+
 notifications:
   email:
     recipients:
